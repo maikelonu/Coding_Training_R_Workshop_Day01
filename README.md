@@ -34,22 +34,22 @@ De antemano les manifiesto, todos estos instaladores son para Windows 7/10. Si a
 # Twitter: https://twitter.com/maikelmendezm
 
 
-# //////////////////////////////////////////////////////////////////////////////////
-# INSTITUTO TECNOLOGICO DE COSTA RICA
-# Escuela de Ingenieria en Construccion
-# https://www.tec.ac.cr
+ //////////////////////////////////////////////////////////////////////////////////
+ INSTITUTO TECNOLOGICO DE COSTA RICA
+ Escuela de Ingenieria en Construccion
+ https://www.tec.ac.cr
 
-# Eng. MSc. Maikel Mendez Morales
-# email: maikel.mendez@gmail.com mamendez@itcr.ac.cr
-# LinkedIn: https://www.linkedin.com/pub/maikel-mendez-morales/2a/738/1b9
-# Google Scholar: https://scholar.google.com/citations?hl=en&user=JnmSVFYAAAAJ
-# YouTube: https://www.youtube.com/channel/UCgpHYoMoZ059e508WVWiMhw
-# //////////////////////////////////////////////////////////////////////////////////
+ Eng. MSc. Maikel Mendez Morales
+ email: maikel.mendez@gmail.com mamendez@itcr.ac.cr
+ LinkedIn: https://www.linkedin.com/pub/maikel-mendez-morales/2a/738/1b9
+ Google Scholar: https://scholar.google.com/citations?hl=en&user=JnmSVFYAAAAJ
+ YouTube: https://www.youtube.com/channel/UCgpHYoMoZ059e508WVWiMhw
+ //////////////////////////////////////////////////////////////////////////////////
 
-# Workspace is cleared
+ Workspace is cleared
 rm(list = ls())
 
-# Please install the following R-libraries in your Windows System:
+ Please install the following R-libraries in your Windows System:
 install.packages("Agreement")
 install.packages("arm")
 install.packages("bbmle")
