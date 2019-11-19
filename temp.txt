@@ -1,0 +1,62 @@
+# //////////////////////////////////
+# Getting Data In and Out of R
+
+help("read.table")
+
+df.cement <- read.table("cement01.txt", header = TRUE, sep = "\t", quote = "")
+
+help("write.table")
+
+write.csv(df.cement, file = "df_cement_test.csv")
+
+names(df.cement)
+
+summary(df.cement)
+
+summary(df.cement$resistencia_28_dias_kgf_cm2)
+
+min(df.cement$resistencia_28_dias_kgf_cm2)
+
+max(df.cement$resistencia_28_dias_kgf_cm2)
+
+median(df.cement$resistencia_28_dias_kgf_cm2)
+
+mean(df.cement$resistencia_28_dias_kgf_cm2)
+
+range(df.cement$resistencia_28_dias_kgf_cm2)
+
+var(df.cement$resistencia_28_dias_kgf_cm2)
+
+quantile(df.cement$resistencia_28_dias_kgf_cm2)
+
+which.max(df.cement$resistencia_28_dias_kgf_cm2)
+
+df.cement[1:5, ]
+
+df.cement[1:5, 1:2]
+
+df.cement[1:5, "cemento"]
+
+# Logical expressions ***********
+
+df.cement$resistencia_28_dias_kgf_cm2 > 300
+
+sum(df.cement$resistencia_28_dias_kgf_cm2 > 300)
+
+length(df.cement$resistencia_28_dias_kgf_cm2)
+
+sum(df.cement$resistencia_28_dias_kgf_cm2 > 300)/length(df.cement$resistencia_28_dias_kgf_cm2)
+
+df.cement$resistencia_28_dias_kgf_cm2 == 388.00
+
+df.test.01 <-  subset(df.cement, cemento == "marca-A")
+
+df.test.02 <-  subset(df.cement, cemento == "marca-A" | cemento == "marca-C" )
+
+df.test.02 <-  subset(df.cement, cemento == "marca-A" & cemento == "marca-C" )
+
+df.test.03 <-  subset(df.cement, cemento == "marca-A" & tipo_elemento == "viga" )
+
+
+# marca-A
+
