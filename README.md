@@ -1,4 +1,4 @@
-# R_Workshop
+# R_Workshop Day01
 Day01 of the 3-day R Workshop associated to https://www.youtube.com/c/maikelmendez
 https://www.youtube.com/watch?v=VyNv8G63gMk&list=PLeLqm9hls71fDKQ1esXzIi5d33aiJkqBW
 
